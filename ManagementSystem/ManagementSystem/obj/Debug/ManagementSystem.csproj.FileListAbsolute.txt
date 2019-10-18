@@ -1,0 +1,24 @@
+C:\Users\BURG19023526\Documents\Visual Studio 2013\Projects\ManagementSystem - Backup\ManagementSystem\bin\Debug\ManagementSystem.exe.config
+C:\Users\BURG19023526\Documents\Visual Studio 2013\Projects\ManagementSystem - Backup\ManagementSystem\obj\Debug\ManagementSystem.exe
+C:\Users\BURG19023526\Documents\Visual Studio 2013\Projects\ManagementSystem - Backup\ManagementSystem\obj\Debug\ManagementSystem.pdb
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\bin\Debug\ManagementSystem.exe.config
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\bin\Debug\ManagementSystem.exe
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\bin\Debug\ManagementSystem.pdb
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\bin\Debug\MySql.Data.dll
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UserLogin.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.MainMenuForm.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.ManagePatientForm.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.PatientsForms.NewVisitForm.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.PatientsForms.VisitHistoryForm.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.Properties.Resources.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UCInventory.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UCPatients.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UCPOS.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UCPurchases.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UCReports.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.UCSuppliers.resources
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.csproj.GenerateResource.Cache
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.exe
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.pdb
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.csprojResolveAssemblyReference.cache
