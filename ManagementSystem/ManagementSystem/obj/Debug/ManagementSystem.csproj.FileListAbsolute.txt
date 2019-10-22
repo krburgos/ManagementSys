@@ -22,3 +22,6 @@ C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\Man
 C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.exe
 C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.pdb
 C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\BURG19023526\documents\visual studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.PurchasesForms.PurchasesForm.resources
+C:\Users\BURG19023526\Documents\Visual Studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.InventoryForms.ProductsForm.resources
+C:\Users\BURG19023526\Documents\Visual Studio 2013\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.InventoryForms.ServicesForm.resources

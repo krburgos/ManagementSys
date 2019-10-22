@@ -104,7 +104,6 @@ namespace ManagementSystem
             DataTable dt = new DataTable();
             adp.Fill(dt);
             PatientsDataGrid.DataSource = dt;
-
         }
 
         private void txt_Search_OnValueChanged(object sender, EventArgs e)

@@ -31,7 +31,7 @@ namespace ManagementSystem
         {
             try
             {
-                if (string.IsNullOrEmpty(txt_FirstName.Text) || string.IsNullOrEmpty(txt_MiddleName.Text) || string.IsNullOrEmpty(txt_LastName.Text) || string.IsNullOrEmpty(txt_Address.Text) || string.IsNullOrEmpty(txt_Age.Text) || string.IsNullOrEmpty(down_Status.Text) || string.IsNullOrEmpty(down_Gender.Text))
+                if (string.IsNullOrEmpty(txt_FirstName.Text) || string.IsNullOrEmpty(txt_MiddleName.Text) || string.IsNullOrEmpty(txt_LastName.Text) || string.IsNullOrEmpty(txt_Address.Text) || string.IsNullOrEmpty(txt_Age.Text) || down_Status.selectedValue == null || down_Gender.selectedValue == null)
                 {
                     MessageBox.Show("Please input all fields");
                 }
@@ -69,7 +69,7 @@ namespace ManagementSystem
         {
             try
             {
-                if (string.IsNullOrEmpty(txt_FirstName.Text) || string.IsNullOrEmpty(txt_MiddleName.Text) || string.IsNullOrEmpty(txt_LastName.Text) || string.IsNullOrEmpty(txt_Address.Text) || string.IsNullOrEmpty(txt_Age.Text) || string.IsNullOrEmpty(down_Status.Text) || string.IsNullOrEmpty(down_Gender.Text))
+                if (string.IsNullOrEmpty(txt_FirstName.Text) || string.IsNullOrEmpty(txt_MiddleName.Text) || string.IsNullOrEmpty(txt_LastName.Text) || string.IsNullOrEmpty(txt_Address.Text) || string.IsNullOrEmpty(txt_Age.Text) || down_Status.selectedValue == null || down_Gender.selectedValue == null)
                 {
                     MessageBox.Show("Please input all fields.", "ERROR");
                 }
@@ -93,7 +93,7 @@ namespace ManagementSystem
                                     cmd.Parameters.AddWithValue("@CivilStatus", down_Status.selectedValue.ToString());
                                     cmd.Parameters.AddWithValue("@Gender", down_Gender.selectedValue.ToString());
                                     cmd.ExecuteNonQuery();
-                                    MessageBox.Show("Record updated successfully");
+                                    MessageBox.Show("Record updated successfully.");
                                     con.Close();
                                     this.Hide();
                                     UCPatients ucp = new UCPatients();
@@ -106,7 +106,7 @@ namespace ManagementSystem
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Please input all fields.");
             }
         }
     }
