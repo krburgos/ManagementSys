@@ -33,6 +33,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txt_VisitID = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.btn_Clear = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_Update = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_Add = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -43,7 +44,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Treatment = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.txt_Findings = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.txt_VisitID = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -102,6 +102,26 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(608, 352);
             this.panel2.TabIndex = 1;
+            // 
+            // txt_VisitID
+            // 
+            this.txt_VisitID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_VisitID.BorderColorFocused = System.Drawing.Color.Purple;
+            this.txt_VisitID.BorderColorIdle = System.Drawing.Color.Purple;
+            this.txt_VisitID.BorderColorMouseHover = System.Drawing.Color.Purple;
+            this.txt_VisitID.BorderThickness = 2;
+            this.txt_VisitID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_VisitID.Enabled = false;
+            this.txt_VisitID.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txt_VisitID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_VisitID.isPassword = false;
+            this.txt_VisitID.Location = new System.Drawing.Point(559, 35);
+            this.txt_VisitID.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_VisitID.Name = "txt_VisitID";
+            this.txt_VisitID.Size = new System.Drawing.Size(35, 33);
+            this.txt_VisitID.TabIndex = 10;
+            this.txt_VisitID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_VisitID.Visible = false;
             // 
             // btn_Clear
             // 
@@ -261,26 +281,6 @@
             this.txt_Findings.Name = "txt_Findings";
             this.txt_Findings.Size = new System.Drawing.Size(281, 149);
             this.txt_Findings.TabIndex = 0;
-            // 
-            // txt_VisitID
-            // 
-            this.txt_VisitID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_VisitID.BorderColorFocused = System.Drawing.Color.Purple;
-            this.txt_VisitID.BorderColorIdle = System.Drawing.Color.Purple;
-            this.txt_VisitID.BorderColorMouseHover = System.Drawing.Color.Purple;
-            this.txt_VisitID.BorderThickness = 2;
-            this.txt_VisitID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_VisitID.Enabled = false;
-            this.txt_VisitID.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_VisitID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txt_VisitID.isPassword = false;
-            this.txt_VisitID.Location = new System.Drawing.Point(559, 35);
-            this.txt_VisitID.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_VisitID.Name = "txt_VisitID";
-            this.txt_VisitID.Size = new System.Drawing.Size(35, 33);
-            this.txt_VisitID.TabIndex = 10;
-            this.txt_VisitID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_VisitID.Visible = false;
             // 
             // NewVisitForm
             // 

@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCSuppliers));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -43,10 +43,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_Add = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_Update = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btn_Add = new Bunifu.Framework.UI.BunifuThinButton2();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txt_ID = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.btn_Refresh = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SuppliersDataGrid)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -96,30 +97,30 @@
             this.SuppliersDataGrid.AllowUserToAddRows = false;
             this.SuppliersDataGrid.AllowUserToDeleteRows = false;
             this.SuppliersDataGrid.AllowUserToResizeRows = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.SuppliersDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.SuppliersDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
             this.SuppliersDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.SuppliersDataGrid.BackgroundColor = System.Drawing.Color.White;
             this.SuppliersDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.SuppliersDataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Purple;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SuppliersDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.Purple;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SuppliersDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.SuppliersDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.SuppliersDataGrid.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.SuppliersDataGrid.DefaultCellStyle = dataGridViewCellStyle13;
             this.SuppliersDataGrid.DoubleBuffered = true;
             this.SuppliersDataGrid.EnableHeadersVisualStyles = false;
             this.SuppliersDataGrid.GridColor = System.Drawing.Color.White;
@@ -130,20 +131,21 @@
             this.SuppliersDataGrid.Name = "SuppliersDataGrid";
             this.SuppliersDataGrid.ReadOnly = true;
             this.SuppliersDataGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SuppliersDataGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SuppliersDataGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.SuppliersDataGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.SuppliersDataGrid.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.SuppliersDataGrid.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.SuppliersDataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.SuppliersDataGrid.Size = new System.Drawing.Size(392, 348);
             this.SuppliersDataGrid.TabIndex = 16;
+            this.SuppliersDataGrid.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SuppliersDataGrid_MouseClick);
             // 
             // txt_Search
             // 
@@ -161,6 +163,7 @@
             this.txt_Search.Size = new System.Drawing.Size(240, 37);
             this.txt_Search.TabIndex = 17;
             this.txt_Search.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_Search.OnValueChanged += new System.EventHandler(this.txt_Search_OnValueChanged);
             // 
             // txt_ContactNo
             // 
@@ -178,6 +181,7 @@
             this.txt_ContactNo.Size = new System.Drawing.Size(240, 37);
             this.txt_ContactNo.TabIndex = 18;
             this.txt_ContactNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_ContactNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_ContactNo_KeyPress);
             // 
             // label4
             // 
@@ -215,31 +219,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Supplier Information";
             // 
-            // btn_Add
-            // 
-            this.btn_Add.ActiveBorderThickness = 1;
-            this.btn_Add.ActiveCornerRadius = 20;
-            this.btn_Add.ActiveFillColor = System.Drawing.Color.Purple;
-            this.btn_Add.ActiveForecolor = System.Drawing.Color.White;
-            this.btn_Add.ActiveLineColor = System.Drawing.Color.Purple;
-            this.btn_Add.BackColor = System.Drawing.Color.White;
-            this.btn_Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Add.BackgroundImage")));
-            this.btn_Add.ButtonText = "Add";
-            this.btn_Add.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Add.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Add.ForeColor = System.Drawing.Color.Black;
-            this.btn_Add.IdleBorderThickness = 1;
-            this.btn_Add.IdleCornerRadius = 20;
-            this.btn_Add.IdleFillColor = System.Drawing.Color.White;
-            this.btn_Add.IdleForecolor = System.Drawing.Color.Black;
-            this.btn_Add.IdleLineColor = System.Drawing.Color.Black;
-            this.btn_Add.Location = new System.Drawing.Point(51, 189);
-            this.btn_Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(75, 40);
-            this.btn_Add.TabIndex = 21;
-            this.btn_Add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // btn_Update
             // 
             this.btn_Update.ActiveBorderThickness = 1;
@@ -264,9 +243,37 @@
             this.btn_Update.Size = new System.Drawing.Size(75, 40);
             this.btn_Update.TabIndex = 22;
             this.btn_Update.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.ActiveBorderThickness = 1;
+            this.btn_Add.ActiveCornerRadius = 20;
+            this.btn_Add.ActiveFillColor = System.Drawing.Color.Purple;
+            this.btn_Add.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_Add.ActiveLineColor = System.Drawing.Color.Purple;
+            this.btn_Add.BackColor = System.Drawing.Color.White;
+            this.btn_Add.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Add.BackgroundImage")));
+            this.btn_Add.ButtonText = "Add";
+            this.btn_Add.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Add.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Add.ForeColor = System.Drawing.Color.Black;
+            this.btn_Add.IdleBorderThickness = 1;
+            this.btn_Add.IdleCornerRadius = 20;
+            this.btn_Add.IdleFillColor = System.Drawing.Color.White;
+            this.btn_Add.IdleForecolor = System.Drawing.Color.Black;
+            this.btn_Add.IdleLineColor = System.Drawing.Color.Black;
+            this.btn_Add.Location = new System.Drawing.Point(51, 189);
+            this.btn_Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(75, 40);
+            this.btn_Add.TabIndex = 21;
+            this.btn_Add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btn_Refresh);
             this.groupBox2.Controls.Add(this.txt_ID);
             this.groupBox2.Controls.Add(this.txt_Search);
             this.groupBox2.Controls.Add(this.SuppliersDataGrid);
@@ -297,6 +304,32 @@
             this.txt_ID.TabIndex = 18;
             this.txt_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txt_ID.Visible = false;
+            // 
+            // btn_Refresh
+            // 
+            this.btn_Refresh.ActiveBorderThickness = 1;
+            this.btn_Refresh.ActiveCornerRadius = 20;
+            this.btn_Refresh.ActiveFillColor = System.Drawing.Color.Purple;
+            this.btn_Refresh.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_Refresh.ActiveLineColor = System.Drawing.Color.Purple;
+            this.btn_Refresh.BackColor = System.Drawing.Color.White;
+            this.btn_Refresh.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Refresh.BackgroundImage")));
+            this.btn_Refresh.ButtonText = "Refresh";
+            this.btn_Refresh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Refresh.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Refresh.ForeColor = System.Drawing.Color.Black;
+            this.btn_Refresh.IdleBorderThickness = 1;
+            this.btn_Refresh.IdleCornerRadius = 20;
+            this.btn_Refresh.IdleFillColor = System.Drawing.Color.White;
+            this.btn_Refresh.IdleForecolor = System.Drawing.Color.Black;
+            this.btn_Refresh.IdleLineColor = System.Drawing.Color.Black;
+            this.btn_Refresh.Location = new System.Drawing.Point(335, 20);
+            this.btn_Refresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Refresh.Name = "btn_Refresh";
+            this.btn_Refresh.Size = new System.Drawing.Size(75, 40);
+            this.btn_Refresh.TabIndex = 23;
+            this.btn_Refresh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // UCSuppliers
             // 
@@ -333,6 +366,7 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btn_Add;
         private System.Windows.Forms.GroupBox groupBox2;
         public Bunifu.Framework.UI.BunifuMetroTextbox txt_ID;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_Refresh;
 
     }
 }
