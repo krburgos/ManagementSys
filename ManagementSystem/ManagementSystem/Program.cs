@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ManagementSystem.PatientsForms;
+using ManagementSystem.InventoryForms;
 
 namespace ManagementSystem
 {

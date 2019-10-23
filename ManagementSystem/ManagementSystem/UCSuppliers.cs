@@ -66,39 +66,27 @@ namespace ManagementSystem
                     {
                         using (MySqlConnection con = new MySqlConnection(connection))
                         {
-                            using (MySqlCommand cmd = con.CreateCommand())
-                            {
-                                con.Open();
-                                cmd.CommandText = "UPDATE DbTest.Suppliers SET SupplierName=@SupplierName, SupplierContact=@SupplierContact WHERE SupplierID=" + txt_ID.Text;
-                                cmd.Parameters.AddWithValue("@SupplierName", txt_SupplierName.Text);
-                                cmd.Parameters.AddWithValue("@SupplierContact", txt_ContactNo.Text);
-                                cmd.ExecuteNonQuery();
-                                con.Close();
-                                MessageBox.Show("Record updated successfully.");
-                            }
+                            MySqlCommand cmd = con.CreateCommand();
+                            con.Open();
+                            cmd.CommandText = "UPDATE DbTest.Suppliers SET SupplierName=@SupplierName, SupplierContact=@SupplierContact WHERE SupplierID=" + txt_ID.Text;
+                            cmd.Parameters.AddWithValue("@SupplierName", txt_SupplierName.Text);
+                            cmd.Parameters.AddWithValue("@SupplierContact", txt_ContactNo.Text);
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                            MessageBox.Show("Record updated successfully.");
+                            txt_SupplierName.Text = "";
+                            txt_ContactNo.Text = "";
                         }
                     }
                 }
             }
         }
-
-        public void fillTable()
-        {
-            using (MySqlConnection con = new MySqlConnection(connection))
-            {
-                con.Open();
-                DataTable dt = new DataTable();
-                MySqlDataAdapter adp = new MySqlDataAdapter();
-                adp = new MySqlDataAdapter("SELECT * FROM DbTest.Suppliers", con);
-                adp.Fill(dt);
-                SuppliersDataGrid.DataSource = dt;
-                con.Close();
-            }
-        }
-
+       
         private void SuppliersDataGrid_MouseClick(object sender, MouseEventArgs e)
         {
             txt_ID.Text = SuppliersDataGrid.CurrentRow.Cells[0].Value.ToString();
+            txt_SupplierName.Text = SuppliersDataGrid.CurrentRow.Cells[1].Value.ToString();
+            txt_ContactNo.Text = SuppliersDataGrid.CurrentRow.Cells[2].Value.ToString();
         }
 
         private void btn_Refresh_Click(object sender, EventArgs e)
@@ -118,6 +106,42 @@ namespace ManagementSystem
         {
             searchData(txt_Search.Text);
         }
+ 
+        private void btn_Delete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do You want to delete record?", "Update", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            {
+                if (result.Equals(DialogResult.OK))
+                {
+                    using (MySqlConnection con = new MySqlConnection(connection))
+                    {
+                        con.Open();
+                        MySqlCommand cmd = con.CreateCommand();
+                        cmd.CommandText = "DELETE FROM DbTest.Suppliers WHERE SupplierID=" + txt_ID.Text;
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                        MessageBox.Show("Record deleted.");
+                        txt_SupplierName.Text = "";
+                        txt_ContactNo.Text = "";
+                    }
+                }
+            }
+        }
+
+        private void fillTable()
+        {
+            using (MySqlConnection con = new MySqlConnection(connection))
+            {
+                con.Open();
+                DataTable dt = new DataTable();
+                MySqlDataAdapter adp = new MySqlDataAdapter();
+                adp = new MySqlDataAdapter("SELECT SupplierID AS 'ID', SupplierName AS 'Supplier Name', SupplierContact AS 'Contact No' FROM DbTest.Suppliers", con);
+                adp.Fill(dt);
+                SuppliersDataGrid.DataSource = dt;
+                con.Close();
+            }
+        }
+
         private void searchData(string findValue)
         {
             string searchQuery = "SELECT SupplierID, SupplierName, SupplierContact FROM DbTest.Suppliers WHERE CONCAT (SupplierName) LIKE '%" + findValue + "%'";

@@ -125,7 +125,7 @@
             this.btn_Add.IdleForecolor = System.Drawing.Color.Black;
             this.btn_Add.IdleLineColor = System.Drawing.Color.Black;
             this.btn_Add.Location = new System.Drawing.Point(29, 147);
-            this.btn_Add.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btn_Add.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(78, 37);
             this.btn_Add.TabIndex = 17;
@@ -151,7 +151,7 @@
             this.btn_Edit.IdleForecolor = System.Drawing.Color.Black;
             this.btn_Edit.IdleLineColor = System.Drawing.Color.Black;
             this.btn_Edit.Location = new System.Drawing.Point(125, 147);
-            this.btn_Edit.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btn_Edit.Margin = new System.Windows.Forms.Padding(5);
             this.btn_Edit.Name = "btn_Edit";
             this.btn_Edit.Size = new System.Drawing.Size(78, 37);
             this.btn_Edit.TabIndex = 15;
@@ -177,7 +177,7 @@
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Black;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Black;
             this.bunifuThinButton21.Location = new System.Drawing.Point(222, 147);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(78, 37);
             this.bunifuThinButton21.TabIndex = 19;
@@ -196,7 +196,7 @@
             this.txt_ID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_ID.isPassword = false;
             this.txt_ID.Location = new System.Drawing.Point(701, 91);
-            this.txt_ID.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txt_ID.Margin = new System.Windows.Forms.Padding(5);
             this.txt_ID.Name = "txt_ID";
             this.txt_ID.Size = new System.Drawing.Size(48, 46);
             this.txt_ID.TabIndex = 20;
